@@ -24,7 +24,7 @@
 	void dispPercentage(int number, int total); //display the percentage of work done
 	int getKeyValue(std::vector<std::tuple<int, int>>haystack, int wantedKey); //get value from a given vector of tuples for a given key
 	int putHexValue(std::wofstream* of, char c); //return the Hexadecimal value of a given character, assuming it is part of the UTF-8 table
-	void removeBOM(std::string outDir); //remove the BOM characters a t the begining of the file
+	void removeBOM(std::string outDir); //remove the BOM characters at the begining of the file
 
 	#include "functions.cpp"
 	
