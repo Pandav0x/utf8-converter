@@ -6,7 +6,7 @@ Further tests must be done.
 
 ## Use
 
-You must compile the program prior to any use. I used Mingw-w64 as compiler as it have some uniqe libraries that I used as includes.
+You must compile the program prior to any use. I used Mingw-w64 as compiler as it have some unique libraries that I used as includes.
 
 ## How does it work
 
