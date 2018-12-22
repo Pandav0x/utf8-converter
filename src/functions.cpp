@@ -113,7 +113,7 @@ int putHexValue(std::wofstream* of, char c)
 		0xb0, 0xb1, 0xb2, 0xb3, 0xb4, 0xb5, 0xb6, 0xb7, 0xb8, 0xb9, 0xba, 0xbb,	0xbc, 0xbd, 0xbe, 0xbf
 	};
 
-	if((int)c > 0) //in range of ANCII
+	if((int)c > 0) //in range of ASCII
 		*of << (char)utf81stHalf[getKeyValue(corespnd, (int)c)];
 	else //Out of range of ANCII, so in Unicode
 	{
