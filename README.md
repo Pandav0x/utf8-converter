@@ -13,4 +13,4 @@ You must compile the program prior to any use. I used Mingw-w64 as compiler as i
 Let Raw be the targeted path which files will be converted from, and Sanitized the folder where the UTF-8 files will be stored afterward.
 The program will recreate the Raw files tree in Sanitized - provided that those files are not already UTF- 8 encoded, only filled with the UTF-8 BOM : `ï»¿` (hex values : `EF BB BF`).
 Then it will rewrite all the files character per character. If a character is outside the ANSI table, it will add `c2` or `c3` before the other character (`c2 = Â` and `c3 = Ã`). 
-The last step is to remove the 3 BOM character at the begining (which explain why it put the files already UTF-8 encoded aside).
+The last step is to remove the 3 BOM character at the begining (which explain why we exculuded the files already in UTF-8).
