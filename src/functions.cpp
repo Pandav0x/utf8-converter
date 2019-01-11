@@ -265,7 +265,7 @@ void copyDir_(const char* inputDir, std::string outDir, int* counter, int* nuof,
                     outStrPath.append("\\" + tmpStr);
                     mkdir(outStrPath.c_str());
 					
-                    copyDir_(tmpStrPath.c_str(), outStrPath, counter, nuof, false); //recursive creation of files inside new folder
+                    copyDir_(tmpStrPath.c_str(), outStrPath, counter, nuof, copying); //recursive creation of files inside new folder
                 }
                 else
                 {
