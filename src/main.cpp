@@ -1,4 +1,4 @@
-#include "functions.h"
+#include "functions.hpp"
 #include <windows.h>
 #include <io.h>
 #include <fcntl.h>
