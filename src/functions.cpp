@@ -195,7 +195,7 @@ void copyLeftovers(std::string inDir, std::string outDir)
         return;
     
     std::ifstream  src(inDir, std::ios::binary);
-    std::ofstream  dst(outDir,   std::ios::binary);
+    std::ofstream  dst(outDir, std::ios::binary);
 
     dst << src.rdbuf();
 
@@ -205,7 +205,7 @@ void copyLeftovers(std::string inDir, std::string outDir)
 //Checking if there is any UTF8 characters in the file
 bool isAlreadyUTF8(std::string path)
 {
-	std::wifstream file; //Detect without openign
+	std::wifstream file; 
     file.open(path);
 
 	wchar_t c;

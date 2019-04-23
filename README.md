@@ -6,6 +6,8 @@ Also, if your non converted file does not contains any **UTF-8** character (mean
 
 I set up the program to only find **php** and **html** files, for the moment it is hard coded in the **function.cpp** file, but will be extracted in a **config.json** file in future commits.
 
+There is some part of the code I'll not be able to explain as it is sometime a magic trick and
+
 ## Installation
 
 I'm working on the import of all the libraries used in this project, and will commit then in the future so it can be compiled easily. For the moment, if you want to compile it, you will have to fix the dependencies yourself. 
@@ -18,11 +20,7 @@ I'm working on the import of all the libraries used in this project, and will co
 
 You then have to move your files in the **raw** folder, then run the **converter** command. The converted files will be in the **sanitized** folder.
 
-I recommend you to backup your files and not **Ctrl+X** them in the **raw** folder, as it might corrupt yout files.
-
-## How it works
-
-The program will browse your files and read them all character by character.
+I recommend you to backup your files and not **Ctrl+X** them in the **raw** folder, as it might corrupt yout files. 
 
 ## TODO
 
@@ -33,6 +31,7 @@ A lot of work is still needed to refactorize the code and to make it more... C++
 - Extract file inclusion (php and html) in a **config.json** file
 - Refactorize the code
 - Create classes & stuff
+- Try to reduce the complexity and the memory consumption
 
 ## Ressources
 
