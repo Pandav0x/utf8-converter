@@ -18,7 +18,6 @@
 	#include <typeinfo>
 	#include <map>
 	#include <math.h>
-	#include <memoryapi.h>
 
 	bool isDir(const char* path); //check if a given path is a directory or a file
 	void copyDir_(const char *inputDir, std::string outDir, int *counter, int *nuof); //Copy all files in a directory
