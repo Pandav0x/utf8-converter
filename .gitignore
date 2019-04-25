@@ -7,3 +7,6 @@
 ~*
 tmp/
 *.swp
+
+raw/
+sanitized/
