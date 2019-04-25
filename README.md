@@ -4,7 +4,7 @@ This project aims to convert all the files in a folder with mixed encoding into 
 
 Also, if your non converted file does not contains any **UTF-8** character (meaning no `é`, `ñ`, `€`, or any other 'exotic char'), you may find it as an **ANSI** encoded file in the sanitized version.
 
-I set up the program to only find **php** and **html** files, for the moment it is hard coded in the **function.cpp** file, but will be extracted in a **config.json** file in future commits.
+I've setted up the program to only find **php** and **html** files, for the moment it is hard coded in the **function.cpp** file, but will be extracted in a **config.json** file in future commits.
 
 There is some part of the code I'll not be able to explain as it is sometime a magic trick and
 
