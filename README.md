@@ -6,7 +6,7 @@ Also, if your non converted file does not contains any **UTF-8** character (mean
 
 I've setted up the program to only find **php** and **html** files, for the moment it is hard coded in the **function.cpp** file, but will be extracted in a **config.json** file in future commits.
 
-There is some part of the code I'll not be able to explain as it is sometime a magic trick and
+There is some part of the code I'll not be able to explain as it is sometime a magic trick and rely more on believing than on actual and sane thinking.
 
 ## Installation
 
