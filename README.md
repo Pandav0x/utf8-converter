@@ -20,7 +20,7 @@ I'm working on the import of all the libraries used in this project, and will co
 
 You then have to move your files in the **raw** folder, then run the **converter** command. The converted files will be in the **sanitized** folder.
 
-I recommend you to backup your files and not **Ctrl+X** them in the **raw** folder, as it might corrupt yout files. 
+I recommend you to backup your files and not **Ctrl+X** them in the **raw** folder, as it might corrupt your files. 
 
 ## TODO
 
